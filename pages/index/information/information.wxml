@@ -1,0 +1,22 @@
+<nav-top title="{{title}}" scrollTop="{{scrollTop}}" img="{{img}}" isShow="{{isShow}}"></nav-top>
+
+
+<view class="information">
+<view class="info" bindtap="info" wx:for="{{information}}"  wx:for-item="info">
+<view class="info_img">
+<image src="{{info.img}}"></image>
+</view>
+
+<view>
+<view class="info_title">{{info.title}}</view>
+<view class="info_con">{{info.content}}</view>
+<view class="info_num">
+<image src="/img/index/num.png"></image>
+<text>{{info.num}}次阅读</text>
+</view>
+</view>
+</view>
+
+
+</view>
+   <view class="showLoad">已经到底了~</view>

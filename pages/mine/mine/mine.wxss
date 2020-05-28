@@ -1,0 +1,63 @@
+/* pages/mine/mine/mine.wxss */
+page{
+  background-color: #f5f5f5;
+}
+button{
+  background-color: transparent;
+}
+button::after{
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+.content{
+  background-color: #fff;
+}
+.head{
+  text-align: center;
+  z-index: 100000;
+  position: relative;
+  top: -80rpx;
+}
+.avatar{
+width: 127rpx;  
+height: 127rpx;
+border-radius: 50%;
+}
+.userinfo .username{
+color: #333333;
+font-size: 32rpx;
+}
+.userinfo .phone{
+  color: #999;
+  font-size: 28rpx;
+
+}
+
+.nav{
+  padding: 0 30rpx;
+  height: 92rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 92rpx;
+  border-top: 1px solid #F0F0F0;
+}
+
+.nav .left_nav image{
+width: 30rpx;
+height: 32rpx;
+padding-right: 30rpx;
+vertical-align: middle;
+}
+.nav .left_nav text{
+  color: #666666;
+  font-size: 32rpx;
+}
+.nav .right_icon{
+
+  text-align: right;
+}
+.nav .right_icon image{
+  width: 14rpx;
+  height: 26rpx;
+}

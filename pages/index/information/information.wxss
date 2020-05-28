@@ -1,0 +1,61 @@
+/* pages/index/information/information.wxss */
+page{
+  background-color: #f5f5f5;
+}
+
+ /* 车险资讯 */
+ .information{
+  background-color: #fff;
+  padding: 0 30rpx;
+  margin-bottom: 10rpx;
+
+}
+  .information .info{
+   clear: both;
+   padding: 30rpx 0;
+  }
+
+  .information .info:not(:last-child){
+    border-bottom: 1px solid #F0F0F0;
+   }
+
+  .information .info .info_img{
+    margin-right: 22rpx;
+    float: left;
+  }
+  .information .info .info_img image{
+width: 160rpx;
+height: 120rpx;
+  }
+  .information .info .info_title{
+font-size: 32rpx;
+color: #333333;
+
+  }
+  .information .info .info_con{
+    font-size: 28rpx;
+color: #999;
+    overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis; 
+  }
+  .information .info .info_num{
+    text-align: right;
+color:#B3B3B3 ;
+font-size: 24rpx;
+  }
+  .information .info .info_num image{
+   width: 22rpx;
+   height: 16rpx;
+   margin-right: 10rpx;
+  }
+
+
+
+  
+.showLoad {
+  margin: 5rpx 0 100rpx;
+  text-align: center;
+  font-size: 20rpx;
+  color:#999696;
+}

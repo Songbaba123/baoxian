@@ -1,0 +1,160 @@
+/* pages/mine/mine/mine.wxss */
+page{
+  background: #f5f5f5;
+}
+/* 自定义背景 */
+.top_background{
+ background-color: #fff;
+
+}
+.top_background image{
+  width: 100%;
+}
+/* 自定义导航 */
+.top{
+   position: fixed;
+top: 0;
+width: 100%;
+background:transparent;
+
+
+ }
+.top>.top-con>view:first-child{
+  overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+width: 160rpx;
+margin: 0 auto;
+
+}
+.rel>.top-con>view:first-child{
+  color:#000;
+}
+.top-con{
+ display: flex;
+  align-items: center;
+  text-align: center;
+color: #fff;
+}
+.navi{
+  position: absolute;
+}
+.rel{
+  position: fixed;
+
+background: #fff;
+z-index:999;
+}
+
+/* 头部导航 */
+.nav_top{
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  font-size: 28rpx;
+  text-align: center;
+  color: #000;
+  padding: 35rpx 0 60rpx;
+}
+.nav image{
+  width: 81rpx;
+  height: 81rpx;
+}
+
+/* 车险速递 */
+.express{
+  padding: 21rpx 30rpx;
+  border-top: 1rpx solid #f5f5f5;
+  display: flex;
+  align-items: center;
+}
+.express .express_img{
+  width: 126rpx;
+  height: 28rpx;
+ 
+}
+.express .new_img{
+  width: 48rpx;
+  height: 22rpx;
+  margin: 0 20rpx;
+}
+
+/* 上下轮播 */
+.swiper_container {
+  height: 35rpx;
+  width: 100%;
+  }
+  .swiper_item {
+  font-size: 28rpx;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  }
+
+
+  /* 车险资讯 */
+.information{
+  background-color: #fff;
+  padding: 0 30rpx;
+  margin-bottom: 10rpx;
+
+}
+  .information .information_info{
+    display: flex;
+    align-items: center;
+    padding: 30rpx 0 0;
+    justify-content: space-between;
+  }
+  .information .information_info .title{
+    color: #333333;
+    font-size: 32rpx;
+    font-weight:500;
+  }
+  .information .information_info .title+navigator{
+    color: #999999;
+    font-size: 20rpx;
+    font-weight:500;
+  }
+  .information .info{
+   clear: both;
+   padding: 30rpx 0;
+  }
+
+  .information .info:not(:last-child){
+    border-bottom: 1px solid #F0F0F0;
+   }
+
+  .information .info .info_img{
+    margin-right: 22rpx;
+    float: left;
+  }
+  .information .info .info_img image{
+width: 160rpx;
+height: 120rpx;
+  }
+  .information .info .info_title{
+font-size: 32rpx;
+color: #333333;
+
+  }
+  .information .info .info_con{
+    font-size: 28rpx;
+color: #999;
+    overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis; 
+  }
+  .information .info .info_num{
+    text-align: right;
+color:#B3B3B3 ;
+font-size: 24rpx;
+  }
+  .information .info .info_num image{
+   width: 22rpx;
+   height: 16rpx;
+   margin-right: 10rpx;
+  }

@@ -1,0 +1,56 @@
+ <!-- 头部自定义导航 -->
+<nav-top title="{{title}}" scrollTop="{{scrollTop}}" img="{{img}}" isShow="{{isShow}}"></nav-top>
+
+
+
+
+ <!-- 首页导航 -->
+ <view class="nav_top">
+<view class="nav">
+<view wx:for="{{index_nav}}" wx:for-item="nav" bindtap="{{nav.url}}" data-index="index">
+<image src="{{nav.img}}"></image>
+<view>{{nav.name}}</view>
+</view>
+</view>
+
+<!-- 车险速递 -->
+<view class="express">
+<image class="express_img" src="/img/index/express.png"></image>
+<image class="new_img" src="/img/index/new.png"></image>
+<!-- 上下轮播 -->
+<swiper class="swiper_container" vertical="true" autoplay="true" circular="true" interval="3000">
+     <block wx:for="{{msgList}}">
+        <swiper-item>
+           <view bindtap='toGGdetail' data-id="{{item.id}}"class="swiper_item">{{item.title}}</view>
+        </swiper-item>
+     </block>
+</swiper>
+
+</view>
+</view>
+<!-- 车险资讯 -->
+<view class="information">
+<view class="information_info">
+<view class="title">车险资讯</view>
+<navigator url="/pages/index/information/information">更多></navigator>
+</view>
+
+<view class="info" bindtap="info" wx:for="{{information}}"  wx:for-item="info">
+<view class="info_img">
+<image src="{{info.img}}"></image>
+</view>
+
+<view>
+<view class="info_title">{{info.title}}</view>
+<view class="info_con">{{info.content}}</view>
+<view class="info_num">
+<image src="/img/index/num.png"></image>
+<text>{{info.num}}次阅读</text>
+</view>
+</view>
+</view>
+
+
+</view>
+
+

@@ -1,0 +1,23 @@
+
+<!-- 头部自定义导航 -->
+ <view class="mine-top">
+ 	<!-- 自定义背景图 -->
+ 	<view class="top_background">
+ 		<image src="{{img}}" mode="widthFix"></image>
+ 	</view>
+ 	<!-- 自定义导航 -->
+ 	<view class="top {{scrollTop>0 ? 'rel':'navi'}}">
+ 		<view class="status-bar" style="height:{{statusBarHeight}}px"></view>
+
+ 		<view class="top-con" style="height:44px">
+		 <view wx:if="{{isShow}}" class="back" bindtap="back">
+		 <image src="/img/common/back.png"></image>
+		 </view>
+ 			<view>{{title}}</view>
+ 		</view>
+
+
+ 	
+ 	</view>
+
+ </view>

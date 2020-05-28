@@ -1,0 +1,17 @@
+/* pages/index/about/about.wxss */
+.con image{
+width: 100%;
+}
+.con .title{
+text-align: center;
+color: #333333;
+font-size: 32rpx;
+padding: 28rpx 0;
+}
+
+.con .content{
+  padding: 0 30rpx;
+  color:#333;
+  font-size: 28rpx;
+  line-height: 50rpx;
+}

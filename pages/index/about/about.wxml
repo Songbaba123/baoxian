@@ -1,0 +1,11 @@
+<!--pages/index/about/about.wxml-->
+<nav-top title="{{title}}" mine-top="mine_top"  scrollTop="{{scrollTop}}" img="{{img}}" isShow="{{isShow}}"></nav-top>
+
+
+
+
+<view class="con">
+<image src="/img/index/about.png"></image>
+<view class="title">{{con_title}}</view>
+<view class="content">{{content}}</view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+
+    "nav-top":"/component/top_nav/top_nav"
+
+  }
+}

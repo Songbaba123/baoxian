@@ -1,0 +1,10 @@
+<nav-top title="{{title}}" scrollTop="{{scrollTop}}" img="{{img}}" isShow="{{isShow}}"></nav-top>
+
+
+<view class="con">
+<image src="/img/index/details.png" mode="widthFix"></image>
+<view class="title">{{con_title}}</view>
+<view class="num">{{num}}次阅读</view>
+
+<view class="content">{{content}}</view>
+</view>

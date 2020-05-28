@@ -1,0 +1,78 @@
+/* pages/apply/apply/apply.wxss */
+button{
+  color: #fff;
+  background:#FE6903;
+  border-radius:40rpx;
+
+}
+.input_from,.input_from+view{
+  margin:0 30rpx ;
+}
+.input_from{
+  padding: 20rpx 0;
+    font-size: 28rpx;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.input_from>view{
+  text-align-last: justify;
+padding-right:20rpx ;
+  width: 180rpx;
+  color: #999999;
+  font-size: 32rpx;
+}
+
+.input_from input{
+  padding: 20rpx 0;
+  border-bottom: 1px solid #DDDDDD;
+  width: 100%;
+  font-size: 32rpx;
+  color: #666;
+}
+.from_input{
+  font-size: 32rpx;
+  color: #666;
+}
+
+/* 上传 */
+.upload_tag{
+  color: #666;
+  font-size: 32rpx;
+  padding-bottom: 30rpx;
+}
+.carcard{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.carcard view>view:first-child{
+  height: 180rpx;
+}
+.upload_bg{
+  width: 300rpx;
+  height: 180rpx;
+}
+
+.upload_icon{
+  position: relative;
+  bottom:130rpx;
+  width: 50rpx;
+  height: 50rpx;
+  }
+
+  .carcard view>view:last-child{
+color: #999;
+font-size: 24rpx;
+padding-top: 20rpx;
+  }
+
+
+
+/* 登录按钮 */
+.login{
+  margin: 80rpx 30rpx 0;
+  font-size: 32rpx;
+  box-shadow:0 11rpx 38rpx 2rpx rgba(51,153,140,0.2);
+  }

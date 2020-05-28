@@ -1,0 +1,50 @@
+/* component/top_nav.wxss */
+/* 自定义背景 */
+.top_background{
+  background-color: #fff;
+ 
+ }
+ .top_background image{
+   width: 100%;
+ }
+ /* 自定义导航 */
+ .top{
+    position: fixed;
+ top: 0;
+ width: 100%;
+ background:transparent;
+ 
+ 
+  }
+
+ .rel>.top-con>view:first-child{
+   color:#000;
+ }
+ .top-con{
+  display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin: 0 32rpx;
+ color: #fff;
+ }
+ .top-con>view image{
+   width: 83rpx;
+   height: 28rpx;
+ }
+ .top-con>view:nth-child(2){
+    overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ width: 160rpx;
+ margin: 0 auto;
+ }
+ .navi{
+   position: absolute;
+ }
+ .rel{
+   position: fixed;
+ 
+ background: #fff;
+ z-index:999;
+ }
+ 

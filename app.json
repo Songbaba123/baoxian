@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/mine/mine/mine",
+    "pages/index/index/index",
+    "pages/index/information _details/information _details",
+    "pages/news/news/news",
+    "pages/apply_policy/apply_policy/apply_policy",
+    "pages/index/about/about",
+    "pages/mine/mine_policy/mine_policy",
+    "pages/index/information/information",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EC701C",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#FE6903",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index/index",
+        "text": "首页",
+        "iconPath": "/img/common/index.png",
+        "selectedIconPath": "/img/common/indexed.png"
+      },
+      {
+        "pagePath": "pages/apply_policy/apply_policy/apply_policy",
+        "text": "申请保单",
+        "iconPath": "/img/common/apply_policy.png",
+        "selectedIconPath": "/img/common/apply_policyed.png"
+      },
+      {
+        "pagePath": "pages/news/news/news",
+        "text": "消息",
+        "iconPath": "/img/common/news.png",
+        "selectedIconPath": "/img/common/newsed.png"
+      },
+      {
+        "pagePath": "pages/mine/mine/mine",
+        "text": "我的",
+        "iconPath": "/img/common/mine.png",
+        "selectedIconPath": "/img/common/mined.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "nav-top":"/component/top_nav/top_nav"
+
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,20 @@
+<!--pages/news/news/news.wxml-->
+   <nav-top title="{{title}}" scrollTop="{{scrollTop}}" img="{{img}}" isShow="{{isShow}}"></nav-top>
+
+
+<view class="main">
+<view class="time">{{time}}</view>
+<view class="con">
+<image src="/img/news/head.png"></image>
+<view class="con_right">
+<view>车险报价</view>
+<view class="right_news">郑先生，您好。您有一份机动
+车辆保险报价单。
+<view bindtap="mine" class="see">点击查看>></view>
+</view>
+</view>
+</view>
+</view>
+
+
+

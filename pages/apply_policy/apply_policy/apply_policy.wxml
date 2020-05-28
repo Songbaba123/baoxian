@@ -1,0 +1,54 @@
+<!--pages/apply/apply/apply.wxml-->
+   <nav-top title="{{title}}" scrollTop="{{scrollTop}}" img="{{img}}" isShow="{{isShow}}"></nav-top>
+
+
+
+<form class="main" bindsubmit="formSubmit">
+<view class="input_from">
+<view>姓名</view>
+<input placeholder-class="from_input" bindinput='getNameValue' type='text' value="{{username}}" placeholder="请输入您的姓名"></input>
+</view>
+<view class="input_from">
+<view>联系方式</view>
+<input placeholder-class="from_input" bindinput='getPhoneValue' type='number' value="{{phone}}" placeholder="请输入您的联系方式"></input>
+</view>
+<view class="input_from">
+<view>车牌号</view>
+<input placeholder-class="from_input" 
+bindinput='getCarnumValue' type='text' value="{{carnum}}" placeholder="请输入车牌号"></input>
+</view>
+<view class="input_from">
+<view>身份证号</view>
+<input placeholder-class="from_input" 
+bindinput='getIdcardValue' type='number' value="{{idcard}}" placeholder="请输入省份证号码"></input>
+</view>
+
+
+<view class="upload">
+<view class="upload_tag">请拍摄并上传行驶证</view>
+<view class="carcard">
+<view>
+<view>
+<image class="upload_bg positive" src="/img/apply/positive.png" bindtap="uploadimg"  mode="widthFix" data-sign='1'></image>
+</view>
+<view>行驶证正面</view>
+</view>
+<view>
+<view>
+<image class="upload_bg inverse" bindtap="uploadimg" src="/img/apply/inverse.png" mode="widthFix" data-sign='2'></image>
+</view>
+<view>行驶证反面</view>
+</view>
+</view>
+</view>
+
+
+<button class="login" form-type="submit">立即提交</button>
+</form>
+
+
+
+
+
+
+

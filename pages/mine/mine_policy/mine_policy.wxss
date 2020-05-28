@@ -1,0 +1,17 @@
+/* pages/mine/mine_policy/mine_policy.wxss */
+.mine_policy{
+  padding: 0 30rpx;
+}
+
+.mine_policy image{
+  width: 100%;
+}
+
+.btn button{
+  background-color: #FE6903;
+  border-radius:40rpx;
+  color: #fff;
+}
+.btn button text{
+  font-size:20rpx;
+}

@@ -1,0 +1,12 @@
+<!--pages/mine/mine_policy/mine_policy.wxml-->
+<nav-top title="{{title}}" scrollTop="{{scrollTop}}" img="{{img}}" isShow="{{isShow}}"></nav-top>
+
+<view class="mine_policy">
+<image src="/img/mine/mine_policy.png" mode="widthFix"></image>
+
+<view class="btn" bindtap="call">
+<button>立即呼叫
+<text>({{name}}:{{phone}})</text>
+</button>
+</view>
+</view>
